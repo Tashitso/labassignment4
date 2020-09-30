@@ -9,21 +9,16 @@ sequence=`grep -v ">" $1`
 
 echo "Name: $name"
 
-#calculate length of sequence
-len=${#sequence}
+#reverse sequence with command rev
 
-echo "Length: $len"
-
-#loop through sequence in reverse
-
-    reverse="$reverse${sequence:$i:1}"
+reverse=`rev $sequence`
 
 echo "$sequence
 $reverse
 "
 
 #complement sequence
-rc=`echo $reverse | tr 'atcg' 'tagc'`
+rc=`echo $reverse | tr 'atcgATCG' 'tagcTAGC'`
 
 echo "$rc
 "
