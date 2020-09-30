@@ -32,3 +32,5 @@ echo "$rc
 
 echo $name >$1.rc.txt
 echo $rc >>$1.rc.txt
+# add reflection 
+
