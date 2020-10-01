@@ -1,0 +1,10 @@
+Reflect on how you currently manage your documents and code, 
+particularly content associated with publishable work. 
+Would it stand up to a reproducibility test? How do you think 
+non-reproducibile research affects computational biology and 
+bioinformatics? What about in your specific field of study
+I am currently switching from word to nano and trying to do everythin in text editor. So down the line there is no issue of imcompatability and 
+wanna getting in habit of using text editor. Basically if the reserach is not 
+reproduceable then the information is not usable. 
+
+
